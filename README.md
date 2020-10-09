@@ -1,2 +1,3 @@
 # code-for-hacktoberfest
-code-sleep-repeat and create pull request for hacktoberfest
+## eat-sleep-walk-code-repeat 
+### create valid pull request for hacktoberfest
