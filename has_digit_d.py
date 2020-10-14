@@ -16,8 +16,10 @@ if __name__ == '__main__':
 
     ans = 0
 
+    print("The integers between 0 and n having digit d are:")
     for i in range(0, n+1):
         if(has_digit_d(i, d)==True):
+            print(i)
             ans += 1
 
     print("Number of integer between 0 and", n, "having digit", d, "is:", ans)
