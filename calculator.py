@@ -12,7 +12,10 @@ def multiply(x, y):
 
 # Division
 def divide(x, y):
-    return x / y
+    if y == 0:
+        print("Undefined")
+    else:
+        return x / y
 
 
 print("Select operation.")
@@ -43,4 +46,4 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
         break
     else:
-        print("Invalid Input")
+        print("Invalid Input") 
